@@ -21,7 +21,7 @@ import { CommonModule } from '@angular/common';
     CommonModule
   ],
   providers: [
-    provideClientHydration()
+    provideClientHydration(),
   ],
   bootstrap: [AppComponent]
 })
